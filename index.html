@@ -5,7 +5,8 @@
   <meta name="google-site-verification" content="zlRO3WZmvR-skV7aijoJRRzxM_rnORMSw7iUQwdEzgM" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Rohan Krythos | Android & Game Developer</title>
-  <meta name="description" content="Code. Create. Conquer. I build cinematic games and high-performance Android applications.">
+  <meta name="description" content="Rohan Krythos — Android & game developer. Creator of AuraStep (step counter & fitness widgets for Android), Habit of a Warrior, and Sword & Axe: 22 Thrones.">
+  <meta name="keywords" content="AuraStep, AuraStep app, step counter app, Android widgets, Rohan Krythos, Rohan Bairagi, Habit of a Warrior, Android developer, Unity game developer">
 
   <!-- Favicon -->
   <link rel="icon" type="image/x-icon" href="favicon.ico">
@@ -16,7 +17,7 @@
   <!-- Open Graph / Social Share -->
   <meta property="og:type" content="website">
   <meta property="og:title" content="Rohan Krythos | Android & Game Developer">
-  <meta property="og:description" content="Code. Create. Conquer. I build cinematic games and high-performance Android applications.">
+  <meta property="og:description" content="Rohan Krythos — Android & game developer. Creator of AuraStep (step counter & fitness widgets for Android), Habit of a Warrior, and Sword & Axe: 22 Thrones.">
   <meta property="og:image" content="https://rohandude.github.io/1000205886.jpg">
   <meta property="og:url" content="https://rohandude.github.io/">
   <meta property="og:site_name" content="Rohan Krythos">
@@ -24,8 +25,35 @@
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Rohan Krythos | Android & Game Developer">
-  <meta name="twitter:description" content="Code. Create. Conquer. I build cinematic games and high-performance Android applications.">
+  <meta name="twitter:description" content="Rohan Krythos — Android & game developer. Creator of AuraStep (step counter & fitness widgets for Android), Habit of a Warrior, and Sword & Axe: 22 Thrones.">
   <meta name="twitter:image" content="https://rohandude.github.io/1000205886.jpg">
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Person",
+        "name": "Rohan Krythos",
+        "alternateName": "Rohan Bairagi",
+        "url": "https://rohandude.github.io/",
+        "jobTitle": "Android & Game Developer",
+        "address": { "@type": "PostalAddress", "addressRegion": "Haryana", "addressCountry": "IN" }
+      },
+      {
+        "@type": "MobileApplication",
+        "name": "AuraStep",
+        "description": "A clean, motivational step-counter and fitness app for Android with light/dark themes and home-screen widgets.",
+        "applicationCategory": "HealthApplication",
+        "operatingSystem": "ANDROID",
+        "image": "https://rohandude.github.io/aurastep-logo.jpg",
+        "url": "https://play.google.com/store/apps/details?id=com.rohankrythos.aurastep",
+        "author": { "@type": "Person", "name": "Rohan Krythos" }
+      }
+    ]
+  }
+  </script>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -869,6 +897,29 @@
       <div class="projects-grid stagger-children">
         <div class="reveal project-card">
           <div class="project-thumb img-reveal">
+            <img src="aurastep-screen-today-light.jpg" alt="AuraStep">
+            <div class="project-badge">New</div>
+            <div class="project-thumb-overlay"></div>
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">AuraStep</h3>
+            <p class="project-subtitle">Step Counter & Fitness App</p>
+            <p class="project-desc">A clean, motivational step-tracking app for Android. Track steps, distance, and calories in real time, with beautiful home-screen widgets that keep you moving.</p>
+            <div class="project-actions">
+              <a href="https://play.google.com/store/apps/details?id=com.rohankrythos.aurastep" target="_blank" rel="noopener" class="project-btn project-btn-secondary" style="text-decoration:none;">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+                Google Play
+              </a>
+              <button class="project-btn project-btn-primary" onclick="document.querySelector('[data-tab=&quot;aurastep&quot;]').click(); document.getElementById('showcase').scrollIntoView({behavior:'smooth'});">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6M15 3h6v6M10 14L21 3"/></svg>
+                View Screenshots
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="reveal project-card">
+          <div class="project-thumb img-reveal">
             <img src="habit-thumb-banner.jpg" alt="Habit of a Warrior">
             <div class="project-thumb-overlay"></div>
           </div>
@@ -965,13 +1016,70 @@
 
       <div class="tabs-container">
         <div class="tabs-nav">
-          <button class="tab-btn active" data-tab="app">Habit of a Warrior</button>
+          <button class="tab-btn active" data-tab="aurastep">AuraStep</button>
+          <button class="tab-btn" data-tab="app">Habit of a Warrior</button>
           <button class="tab-btn" data-tab="game">Sword & Axe: 22 Thrones</button>
           <button class="tab-btn" data-tab="nutritrack">NutriTrack Pro Max</button>
           <button class="tab-btn" data-tab="dev">About the Developer</button>
         </div>
 
-        <div class="tab-panel active" id="tab-app">
+        <div class="tab-panel active" id="tab-aurastep">
+          <div class="app-showcase">
+            <div class="app-header-row">
+              <div class="app-logo-wrap reveal-scale">
+                <img src="aurastep-logo.jpg" alt="AuraStep Logo">
+              </div>
+              <div class="app-title-block reveal-left">
+                <h3>AuraStep</h3>
+                <div class="tagline">Small Steps, A Better You</div>
+              </div>
+            </div>
+            <div class="app-screens-row stagger-children">
+              <div class="app-screen reveal">
+                <img src="aurastep-screen-today-light.jpg" alt="Today Screen — Light Theme">
+              </div>
+              <div class="app-screen reveal">
+                <img src="aurastep-screen-today-dark.jpg" alt="Today Screen — Dark Theme">
+              </div>
+              <div class="app-screen reveal">
+                <img src="aurastep-screen-analytics.jpg" alt="Analytics Screen">
+              </div>
+              <div class="app-screen reveal">
+                <img src="aurastep-home-reference.jpg" alt="Home Screen Reference">
+              </div>
+              <div class="app-screen reveal">
+                <img src="aurastep-widgets-reference.jpg" alt="Home Screen Widgets — Small, Medium, and Large">
+              </div>
+              <div class="app-screen reveal">
+                <img src="aurastep-widgets-options.jpg" alt="Widget Style Options">
+              </div>
+            </div>
+
+            <div class="showcase-description reveal">
+              <p class="short-desc">Small steps, tracked beautifully — with widgets that keep you moving.</p>
+              <p><strong style="color:#fff;">AuraStep</strong> is a clean, modern step-counter app for Android that turns your daily walk into a simple, motivating habit. Track steps, distance, and calories burned throughout the day, in a light or dark theme that matches your style.</p>
+              <p>Its home-screen widgets — available in small, medium, and large sizes — bring your progress straight to your launcher, so you never have to open the app to see how you're doing.</p>
+              <h4 class="showcase-features-title">Features</h4>
+              <ul class="feature-list">
+                <li>👣 Accurate daily step, distance & calorie tracking</li>
+                <li>⚡ Real-time or battery-friendly periodic tracking modes</li>
+                <li>📊 Weekly analytics with trends and goal streaks</li>
+                <li>🧩 Small, medium & large home-screen widgets</li>
+                <li>🌞 Light and 🌙 dark themes</li>
+                <li>🎯 Custom daily step goals</li>
+                <li>🔔 Milestone and reminder notifications</li>
+              </ul>
+              <p class="showcase-cta">Every step counts — start building a healthier you, one day at a time.</p>
+              <a href="https://play.google.com/store/apps/details?id=com.rohankrythos.aurastep" target="_blank" rel="noopener" class="btn-primary" style="margin-top:16px;text-decoration:none;display:inline-flex;">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+                Get it on Google Play
+              </a>
+              <a href="aurastep-privacy.html" style="margin-left:16px;color:#AFAFAF;font-size:13px;text-decoration:underline;">Privacy Policy</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="tab-panel" id="tab-app">
           <div class="app-showcase">
             <div class="app-header-row">
               <div class="app-logo-wrap reveal-scale">
@@ -1163,7 +1271,7 @@
                 From Android apps that solve real problems to Unity games that transport players to new worlds, I blend technical expertise with creative vision to deliver premium experiences. Based in <strong style="color:#fff;">Haryana, India</strong>, I am constantly pushing boundaries — currently developing <strong style="color:#D61B1B;">3 new games</strong> and <strong style="color:#D61B1B;">1 new app</strong> alongside my existing projects.
               </p>
               <p>
-                My official projects include the warrior-themed productivity app <strong style="color:#fff;">"Habit of a Warrior"</strong> (live on Google Play), the epic 3D action game <strong style="color:#fff;">"Sword & Axe: 22 Thrones"</strong>, and the upcoming nutrition companion <strong style="color:#fff;">"NutriTrack Pro Max"</strong>. I don't just build software — I forge digital weapons for the modern age.
+                My official projects include the warrior-themed productivity app <strong style="color:#fff;">"Habit of a Warrior"</strong> (live on Google Play), the step-tracking app <strong style="color:#fff;">"AuraStep"</strong>, the epic 3D action game <strong style="color:#fff;">"Sword & Axe: 22 Thrones"</strong>, and the upcoming nutrition companion <strong style="color:#fff;">"NutriTrack Pro Max"</strong>. I don't just build software — I forge digital weapons for the modern age.
               </p>
               <div class="about-stats-row stagger-children">
                 <div class="about-stat reveal">
