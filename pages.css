@@ -1,0 +1,14 @@
+:root{--bg:#050505;--bg2:#111;--red:#D61B1B;--gold:#C9A84C;--t:#fff;--t2:#AFAFAF;--b:rgba(255,255,255,.08)}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--t2);font:16px/1.75 Inter,system-ui,sans-serif}
+a{color:var(--gold)}header.top{position:sticky;top:0;background:rgba(5,5,5,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--b);z-index:9}
+nav{max-width:1000px;margin:auto;padding:14px 20px;display:flex;gap:18px;flex-wrap:wrap;align-items:center}nav a{color:var(--t2);text-decoration:none;font-size:14px}nav a:hover{color:#fff}nav .brand{font:700 15px Orbitron,sans-serif;color:#fff;margin-right:auto}
+main{max-width:1000px;margin:auto;padding:32px 20px 60px}.crumbs{font-size:13px;margin-bottom:20px}h1,h2,h3,h4{color:#fff;font-family:'Space Grotesk',sans-serif;line-height:1.25}h1{font:800 clamp(26px,5vw,40px) Orbitron,sans-serif;margin:8px 0}
+.tagline{color:var(--gold);letter-spacing:2px;text-transform:uppercase;font-size:13px;margin-bottom:24px}.app-logo-wrap img{width:96px;height:96px;border-radius:20px;object-fit:cover}
+.app-header-row,.game-header-row{display:flex;gap:20px;align-items:center;margin-bottom:24px}.app-title-block h3,.game-title-block h3{display:none}
+.app-screens-row,.game-screens-row{display:flex;gap:14px;overflow-x:auto;padding-bottom:10px;margin:24px 0}.app-screen img,.game-screen img{height:380px;width:auto;border-radius:14px;border:1px solid var(--b)}
+.short-desc{font-size:19px;color:#fff}.feature-list{list-style:none;padding:0;display:grid;gap:8px}.feature-list li{background:var(--bg2);border:1px solid var(--b);border-radius:10px;padding:10px 14px}
+.btn-primary,.btn{display:inline-flex;gap:8px;align-items:center;background:var(--red);color:#fff;padding:12px 22px;border-radius:10px;text-decoration:none;font-weight:600;margin:16px 12px 0 0}
+.about-photo-stack{display:flex;gap:12px;overflow-x:auto;margin:20px 0}.about-photo-stack img{height:260px;width:auto;border-radius:14px}.about-stats-row{display:flex;gap:24px;flex-wrap:wrap;margin-top:20px}.about-stat .num{font:700 28px Orbitron,sans-serif;color:#fff}
+.more{margin-top:48px;border-top:1px solid var(--b);padding-top:24px}.more a{display:inline-block;margin:6px 16px 6px 0}
+.form-input{background:var(--bg2);border:1px solid var(--b);color:#fff;padding:12px;border-radius:8px}.project-btn{background:var(--red);color:#fff;border:0;padding:12px 18px;border-radius:8px;cursor:pointer}
+footer{border-top:1px solid var(--b);text-align:center;padding:28px 20px;font-size:13px}footer a{margin:0 8px;color:var(--t2)}
