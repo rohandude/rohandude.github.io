@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://rohandude.github.io/sitemap.xml
+Sitemap: https://rohankrythos.github.io/sitemap.xml
